@@ -17,7 +17,7 @@ Shinobi is a reimagined, miniaturized GBS8200 for portablizers. Like the origina
 
 ## Demo
 
-<placeholder>
+*/placeholder*
 
 ## Ordering
 Recommended fabrication specs:
@@ -43,7 +43,7 @@ There is an 0805 zero-ohm resistor (R19) in series with the output of the onboar
 ## Programming
 - Install [CH340 drivers](http://www.wch-ic.com/downloads/CH341SER_ZIP.html)
 - Bridge the `prg` jumper with solder.
-- Plug USB-C into Shinobi
+- Plug USB-C into Shinobi. **Note:** USB-C port only works in one plug orientation. Flip plug if CH340C doesn't enumerate.
 - Verify COM port (or your platform's equivalent) is enumerating
 - Open GBS Control release of your choice in Arduino IDE (these steps assume you have already installed requisite libraries, etc.)
 - Set up Tools menu as shown, select Shinobi port under Port menu, then program
