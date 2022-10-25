@@ -29,7 +29,7 @@ Recommended fabrication specs:
 
 <img src='images/esp06_top.png' width='240'> <img src='images/esp06_bottom.png' width='250'> 
 
-I maintain a [Mouser project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=a0a4651c6a) with most of the BOM. You will still need to source a GBS8200, ESP-06, and CH340C elsewhere. GBS8200s are available at AliExpress, eBay, DHGate, Amazon... I get my [ESP-06s](https://www.aliexpress.us/item/2251832641491582.html) and [CH340Cs](https://www.aliexpress.com/wholesale?&SearchText=ch340c) from AliExpress.
+I maintain a [Mouser project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=a0a4651c6a) with most of the BOM. You will still need to source a GBS8200, ESP-06, and CH340C elsewhere. GBS8200s are available from AliExpress, eBay, DHGate, and Amazon. I get my [ESP-06s](https://www.aliexpress.us/item/2251832641491582.html) and [CH340Cs](https://www.aliexpress.com/wholesale?&SearchText=ch340c) from AliExpress.
 
 ## Assembly
 I've provided an [iBOM](https://github.com/oratek-ch/InteractiveBOM) file to make assembly easier. Go to [ibom.herokuapp.com](https://ibom.herokuapp.com/) and upload the JSON to see the boardview and BOM side-by-side in an interactive format.
