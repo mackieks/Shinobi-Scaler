@@ -15,7 +15,7 @@ Shinobi is a reimagined, miniaturized GBS8200 for portablizers. Like the origina
 
 <img src='images/schematic.png' width='1000'>
 
-## Demo
+## Demo Photos
 
 */placeholder*
 
