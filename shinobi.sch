@@ -17989,6 +17989,11 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <label x="424.18" y="142.24" size="1.778" layer="95" rot="MR0"/>
 <pinref part="U2" gate="A" pin="DQM0"/>
 </segment>
+<segment>
+<wire x1="500.38" y1="142.24" x2="492.76" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="DQM1"/>
+<label x="500.38" y="142.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="WE#" class="0">
 <segment>
@@ -18372,6 +18377,11 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="431.8" y1="111.76" x2="424.18" y2="111.76" width="0.1524" layer="91"/>
 <label x="424.18" y="111.76" size="1.778" layer="95" rot="MR0"/>
 <pinref part="U2" gate="A" pin="DQM2"/>
+</segment>
+<segment>
+<wire x1="492.76" y1="111.76" x2="500.38" y2="111.76" width="0.1524" layer="91"/>
+<label x="500.38" y="111.76" size="1.778" layer="95"/>
+<pinref part="U2" gate="A" pin="DQM3"/>
 </segment>
 </net>
 <net name="MA3" class="0">
@@ -19026,20 +19036,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <pinref part="U1" gate="G$1" pin="VB3"/>
 <label x="246.38" y="152.4" size="1.778" layer="95" rot="R180"/>
 <wire x1="228.6" y1="152.4" x2="254" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<wire x1="492.76" y1="142.24" x2="500.38" y2="142.24" width="0.1524" layer="91"/>
-<label x="500.38" y="142.24" size="1.778" layer="95"/>
-<pinref part="U2" gate="A" pin="DQM1"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<wire x1="492.76" y1="111.76" x2="500.38" y2="111.76" width="0.1524" layer="91"/>
-<label x="500.38" y="111.76" size="1.778" layer="95"/>
-<pinref part="U2" gate="A" pin="DQM3"/>
 </segment>
 </net>
 </nets>
