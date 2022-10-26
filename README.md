@@ -38,7 +38,7 @@ You will need to harvest the TV5725 scaler IC and 64Mbit SDRAM from a working GB
 
 <img src='images/gbs8200_top_noconn.png' width='500'>
 
-There is an 0805 zero-ohm resistor (R19) in series with the output of the onboard 3.3V regulator. If you intend to power Shinobi from an external 3.3V supply, you can omit this resistor as well as U7 (TPS621351) and its supporting passives. If you choose to remove the zero-ohm and/or U7, the board will need to be powered with an external 3.3V supply during programming.
+**Note:** There is an 0805 zero-ohm resistor (R19) in series with the output of the onboard 3.3V regulator. If you intend to power Shinobi from an external 3.3V supply, you can omit this resistor as well as U7 (TPS621351) and its supporting passives. If you choose to remove the zero-ohm and/or U7, the board will need to be powered with an external 3.3V supply during programming. 
 
 ## Programming
 - Install [CH340 drivers](http://www.wch-ic.com/downloads/CH341SER_ZIP.html)
