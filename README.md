@@ -7,6 +7,7 @@ Shinobi is a reimagined, miniaturized GBS8200 for portablizers. Like the origina
 - [x] 47 x 57mm 2-layer PCB
 - [x] Compatible with [rama's GBS-Control](https://github.com/ramapcsx2/gbs-control)
 - [x] 240p/480i RGBs input; 480p/720p/960p/1080p RGBHV/VGA output
+- [x] 0.1" PTHs for power and IO (can be mounted with pin headers on a carrier PCB)
 - [x] TV5725 scaler IC and 64Mbit SDRAM from GBS8200
 - [x] Integrated ESP8266 with PCB antenna
 - [x] Integrated CH340C USB-Serial for programming
@@ -44,6 +45,8 @@ You will need to harvest the TV5725 scaler IC and 64Mbit SDRAM from a working GB
 <img src='images/gbs8200_top_noconn.png' width='500'>
 
 **Note:** There is an 0805 zero-ohm resistor (R19) in series with the output of the onboard 3.3V regulator. If you intend to power Shinobi from an external 3.3V supply, you can omit this resistor as well as U7 (TPS621351) and its supporting passives. If you choose to remove the zero-ohm and/or U7, the board will need to be powered with an external 3.3V supply during programming. 
+
+<img src='images/0ohm.jpg' width='350'>
 
 ## Programming
 - Install [CH340 drivers](http://www.wch-ic.com/downloads/CH341SER_ZIP.html)
