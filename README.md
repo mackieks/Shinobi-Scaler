@@ -20,7 +20,7 @@ Shinobi PCB
 
 <img src='images/tilted.jpg' width='350'> <img src='images/bottom.jpg' width='350'> 
 
-1Chip SNES RGBS upscaled to 640x480 VGA, displayed on ZJ050NA-08C LCD
+1Chip SNES RGBs upscaled to 640x480 VGA, displayed on ZJ050NA-08C LCD
 
 <img src='images/yoshi.jpg' width='400'> <img src='images/sm.jpg' width='400'>
 
