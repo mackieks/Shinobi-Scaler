@@ -1,7 +1,7 @@
 # Shinobi Scaler <img src="images/logo_dark.png#gh-light-mode-only" height="30"/> <img src="images/logo_light.png#gh-dark-mode-only" height="30"/>
 Shinobi is a reimagined, miniaturized GBS8200 for portablizers. Like the original GBS8200, it can convert 240p and 480i RGBs to 480p/720p/960p/1080p VGA, making it perfect for connecting retro video game consoles to modern LCDs.
 
-<img src='images/shinobi_new.png' width='350'> <img src='images/untitled.png' width='350'> <img src='images/topview.jpg' width='350'> 
+<img src='images/shinobi_new.png' width='350'> <img src='images/untitled.png' width='350'> 
 
 ## Features
 - [x] 47 x 57mm 2-layer PCB
@@ -16,11 +16,13 @@ Shinobi is a reimagined, miniaturized GBS8200 for portablizers. Like the origina
 <img src='images/schematic.png' width='1000'>
 
 ## Gallery
-#### Shinobi PCB
-<img src='images/schematic.png' width='1000'>
+Shinobi PCB
 
-#### 1Chip SNES RGB upscaled to 640x480 VGA, displayed on ZJ050NA-08C LCD.
+<img src='images/tilted.jpg' width='350'> <img src='images/bottom.jpg' width='350'> 
 
+1Chip SNES RGBS upscaled to 640x480 VGA, displayed on ZJ050NA-08C LCD
+
+<img src='images/yoshi.jpg' width='400'> <img src='images/sm.jpg' width='400'>
 
 ## Ordering
 Recommended fabrication specs:
@@ -54,9 +56,7 @@ You will need to harvest the TV5725 scaler IC and 64Mbit SDRAM from a working GB
 
 - When programming is complete, unplug Shinobi, remove `prg` solder bridge, and power back up to access GBS-Control Wi-Fi AP
 
-
 ## To-do
-- [ ] Upload demo photos of new revision
 - [ ] Finish prototype enclosure and upload photos + MCAD files
 
 ## License
