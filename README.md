@@ -61,6 +61,7 @@ You will need to harvest the TV5725 scaler IC and 64Mbit SDRAM from a working GB
 
 ## To-do
 - [ ] Finish prototype enclosure and upload photos + MCAD files
+- [ ] Run reliability tests for higher output resolutions (currently only 480P has been vetted)
 
 ## License
 
