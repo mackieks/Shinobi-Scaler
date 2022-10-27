@@ -1,7 +1,7 @@
 # Shinobi Scaler <img src="images/logo_dark.png#gh-light-mode-only" height="30"/> <img src="images/logo_light.png#gh-dark-mode-only" height="30"/>
 Shinobi is a reimagined, miniaturized GBS8200 for portablizers. Like the original GBS8200, it can convert 240p and 480i RGBs to 480p/720p/960p/1080p VGA, making it perfect for connecting retro video game consoles to modern LCDs.
 
-<img src='images/shinobi_new.png' width='350'> <img src='images/untitled.png' width='350'> 
+<img src='images/shinobi_new.png' width='350'> <img src='images/untitled.png' width='350'> <img src='images/topview.jpg' width='350'> 
 
 ## Features
 - [x] 47 x 57mm 2-layer PCB
@@ -15,9 +15,12 @@ Shinobi is a reimagined, miniaturized GBS8200 for portablizers. Like the origina
 
 <img src='images/schematic.png' width='1000'>
 
-## Demo Photos
+## Gallery
+#### Shinobi PCB
+<img src='images/schematic.png' width='1000'>
 
-*/placeholder*
+#### 1Chip SNES RGB upscaled to 640x480 VGA, displayed on ZJ050NA-08C LCD.
+
 
 ## Ordering
 Recommended fabrication specs:
@@ -42,7 +45,7 @@ You will need to harvest the TV5725 scaler IC and 64Mbit SDRAM from a working GB
 
 ## Programming
 - Install [CH340 drivers](http://www.wch-ic.com/downloads/CH341SER_ZIP.html)
-- Bridge the `prg` jumper with solder.
+- Bridge the `prg` jumper with solder (or tweezers.)
 - Plug USB-C into Shinobi. **Note:** USB-C port only works in one plug orientation. Flip plug if CH340C doesn't enumerate.
 - Verify COM port (or your platform's equivalent) is enumerating
 - Open GBS-Control release of your choice in Arduino IDE (these steps assume you have already installed requisite libraries, etc.)
