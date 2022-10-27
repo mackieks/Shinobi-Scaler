@@ -4,7 +4,7 @@ Shinobi is a reimagined, miniaturized GBS8200 for portablizers. Like the origina
 <img src='images/shinobi_new.png' width='350'> <img src='images/untitled.png' width='350'> 
 
 ## Features
-- [x] 47 x 57mm 2-layer PCB
+- [x] 47 x 57mm 2-layer PCB (designed in EAGLE)
 - [x] Compatible with [rama's GBS-Control](https://github.com/ramapcsx2/gbs-control)
 - [x] 240p/480i RGBs input; 480p/720p/960p/1080p RGBHV/VGA output
 - [x] 0.1" PTHs for power and IO (can be mounted with pin headers on a carrier PCB)
