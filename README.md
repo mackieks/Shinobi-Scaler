@@ -12,6 +12,7 @@ Shinobi is a reimagined, miniaturized GBS8200 for portablizers. Like the origina
 - [x] Integrated ESP8266 with PCB antenna
 - [x] Integrated CH340C USB-Serial for programming
 - [x] Integrated Si5351A clock generator
+- [x] Draws 650mA @ 3.3V (2.15W) when scaling 240p to 480p
 - [x] Power from 3.3V directly, or supply 4-15V to onboard high-current 3.3V regulator
 
 <img src='images/schematic.png' width='1000'>
