@@ -39,6 +39,7 @@ Recommended fabrication specs:
 I maintain a [Mouser project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=a0a4651c6a) with most of the BOM. You will still need to source a GBS8200, ESP-06, and CH340C elsewhere. GBS8200s are available from AliExpress, eBay, DHGate, and Amazon. I get my [ESP-06s](https://www.aliexpress.us/item/2251832641491582.html) and [CH340Cs](https://www.aliexpress.com/wholesale?&SearchText=ch340c) from AliExpress.
 
 **Update (11/3/22):** ESP-06s have been relisted on the AliExpress Keli-te Store.
+
 **Update (1/25/23):** TPS621351RGXR is available for purchase on TI's website.
 
 ## Assembly
