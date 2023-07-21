@@ -88,9 +88,6 @@ var pcbdata =  {
 		[1,"4.7k","R0402",["R28"],"","","F"],
 		[1,"5.1k","R0402",["R12"],"","","F"],
 		[1,"5.1k","R0402",["R13"],"","","F"],
-		[1,"10uH","R0402",["L2"],"","","F"],
-		[1,"10uH","R0402",["L3"],"","","F"],
-		[1,"10uH","R0402",["L4"],"","","F"],
 		[1,"33","R0402",["R20"],"","","F"],
 		[1,"33","R0402",["R21"],"","","F"],
 		[1,"75","R0402",["R4"],"","","F"],
@@ -105,8 +102,11 @@ var pcbdata =  {
 		[1,"200","R0402",["R3"],"","","F"],
 		[1,"200","R0402",["R5"],"","","F"],
 		[1,"200","R0402",["R7"],"","","F"],
+		[1,"220Ω","R0402",["FB1"],"","","F"],
+		[1,"220Ω","R0402",["FB2"],"","","F"],
+		[1,"220Ω","R0402",["FB3"],"","","F"],
 		[1,"560k","R0402",["R15"],"","","F"],
-		[1,"0ohm","R0805",["R19"],"VALUE","0ohm","F"],
+		[1,"0ohm","R0805",["R19"],"","","F"],
 		[1,"TPS621351","RGX0011A",["U7"],"MANUFACTURER;MANUFACTURER_NAME;MANUFACTURER_PART_NUMBER;PARTNUMBER;REFDES;TYPE","Texas Instruments;Texas Instruments;TPS621351RGXR;TPS621351RGXR;RefDes;TYPE","F"],
 		[1,"CH340C","SO016",["U6"],"PROD_ID","IC-14038","F"],
 		[1,"NCV8187AMN180TAG","SON95P300X300X95-7N",["U8"],"DESCRIPTION;HEIGHT;MANUFACTURER_NAME;MANUFACTURER_PART_NUMBER;MOUSER_PART_NUMBER;MOUSER_PRICE-STOCK","LDO Voltage Regulators 1.2 A LOW IQ, LOW DROPOUT;0.95mm;onsemi;NCV8187AMN180TAG;863-NCV8187AMN180TAG;https://www.mouser.co.uk/ProductDetail/onsemi/NCV8187AMN180TAG?qs=%252B6g0mu59x7IXrWF3QtkYYQ%3D%3D","F"],
@@ -173,7 +173,7 @@ var pcbdata =  {
 },
 "metadata": {
 		"company": "",
-		"date": "2022-10-25 01:42:57",
+		"date": "2023-07-21 20:27:56",
 		"revision": "",
 		"title": "shinobi"
 },
@@ -5056,10 +5056,10 @@ var pcbdata =  {
 	},
 	"C41": {
 		"bbox":{
-			"pos":[55.38700,28.34980],
+			"pos":[55.26000,28.34980],
 			"size":[1.01600,1.49840],
 		},
-		"center":[55.89500,29.09900],
+		"center":[55.76800,29.09900],
 		"drawings":[],
 		"layer":["F"],
 		"pads":[
@@ -5068,7 +5068,7 @@ var pcbdata =  {
 				"layers":["F"],
 				"offset": [0.0,0.0],
 				"pin1":1,
-				"pos": [55.89500,28.24900],
+				"pos": [55.76800,28.24900],
 				"shape": "rect",
 				"size": [1.00000,1.00000],
 				"type": "smd"
@@ -5078,7 +5078,7 @@ var pcbdata =  {
 				"layers":["F"],
 				"offset": [0.0,0.0],
 				"pin1":0,
-				"pos": [55.89500,29.94900],
+				"pos": [55.76800,29.94900],
 				"shape": "rect",
 				"size": [1.00000,1.00000],
 				"type": "smd"
@@ -5790,6 +5790,102 @@ var pcbdata =  {
 		],
 		"ref":"C63"
 	},
+	"FB1": {
+		"bbox":{
+			"pos":[28.57030,40.25900],
+			"size":[1.02540,1.01600],
+		},
+		"center":[29.08300,40.76700],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [28.58300,40.76700],
+				"shape": "rect",
+				"size": [0.60000,0.70000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [29.58300,40.76700],
+				"shape": "rect",
+				"size": [0.60000,0.70000],
+				"type": "smd"
+			},
+		],
+		"ref":"FB1"
+	},
+	"FB2": {
+		"bbox":{
+			"pos":[32.38030,40.25900],
+			"size":[1.02540,1.01600],
+		},
+		"center":[32.89300,40.76700],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [32.39300,40.76700],
+				"shape": "rect",
+				"size": [0.60000,0.70000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [33.39300,40.76700],
+				"shape": "rect",
+				"size": [0.60000,0.70000],
+				"type": "smd"
+			},
+		],
+		"ref":"FB2"
+	},
+	"FB3": {
+		"bbox":{
+			"pos":[38.34930,40.25900],
+			"size":[1.02540,1.01600],
+		},
+		"center":[38.86200,40.76700],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [38.36200,40.76700],
+				"shape": "rect",
+				"size": [0.60000,0.70000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [39.36200,40.76700],
+				"shape": "rect",
+				"size": [0.60000,0.70000],
+				"type": "smd"
+			},
+		],
+		"ref":"FB3"
+	},
 	"J1": {
 		"bbox":{
 			"pos":[0.97598,6.95235],
@@ -6371,102 +6467,6 @@ var pcbdata =  {
 			},
 		],
 		"ref":"L1"
-	},
-	"L2": {
-		"bbox":{
-			"pos":[28.57030,40.25900],
-			"size":[1.02540,1.01600],
-		},
-		"center":[29.08300,40.76700],
-		"drawings":[],
-		"layer":["F"],
-		"pads":[
-			{
-				"angle": 0.00000,
-				"layers":["F"],
-				"offset": [0.0,0.0],
-				"pin1":1,
-				"pos": [28.58300,40.76700],
-				"shape": "rect",
-				"size": [0.60000,0.70000],
-				"type": "smd"
-			},
-			{
-				"angle": 0.00000,
-				"layers":["F"],
-				"offset": [0.0,0.0],
-				"pin1":0,
-				"pos": [29.58300,40.76700],
-				"shape": "rect",
-				"size": [0.60000,0.70000],
-				"type": "smd"
-			},
-		],
-		"ref":"L2"
-	},
-	"L3": {
-		"bbox":{
-			"pos":[32.38030,40.25900],
-			"size":[1.02540,1.01600],
-		},
-		"center":[32.89300,40.76700],
-		"drawings":[],
-		"layer":["F"],
-		"pads":[
-			{
-				"angle": 0.00000,
-				"layers":["F"],
-				"offset": [0.0,0.0],
-				"pin1":1,
-				"pos": [32.39300,40.76700],
-				"shape": "rect",
-				"size": [0.60000,0.70000],
-				"type": "smd"
-			},
-			{
-				"angle": 0.00000,
-				"layers":["F"],
-				"offset": [0.0,0.0],
-				"pin1":0,
-				"pos": [33.39300,40.76700],
-				"shape": "rect",
-				"size": [0.60000,0.70000],
-				"type": "smd"
-			},
-		],
-		"ref":"L3"
-	},
-	"L4": {
-		"bbox":{
-			"pos":[38.34930,40.25900],
-			"size":[1.02540,1.01600],
-		},
-		"center":[38.86200,40.76700],
-		"drawings":[],
-		"layer":["F"],
-		"pads":[
-			{
-				"angle": 0.00000,
-				"layers":["F"],
-				"offset": [0.0,0.0],
-				"pin1":1,
-				"pos": [38.36200,40.76700],
-				"shape": "rect",
-				"size": [0.60000,0.70000],
-				"type": "smd"
-			},
-			{
-				"angle": 0.00000,
-				"layers":["F"],
-				"offset": [0.0,0.0],
-				"pin1":0,
-				"pos": [39.36200,40.76700],
-				"shape": "rect",
-				"size": [0.60000,0.70000],
-				"type": "smd"
-			},
-		],
-		"ref":"L4"
 	},
 	"LED1": {
 		"bbox":{
@@ -7110,8 +7110,8 @@ var pcbdata =  {
 	},
 	"R19": {
 		"bbox":{
-			"pos":[14.42720,16.91034],
-			"size":[2.03200,2.95853],
+			"pos":[14.93520,17.39040],
+			"size":[1.01600,1.99840],
 		},
 		"center":[15.44320,18.38960],
 		"drawings":[],

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -15018,9 +15018,9 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="GND37" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND38" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND39" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="L2" library="resistor" library_urn="urn:adsk.eagle:library:2745533" deviceset="L0402" device="" package3d_urn="urn:adsk.eagle:package:2745538/3" value="10uH"/>
-<part name="L3" library="resistor" library_urn="urn:adsk.eagle:library:2745533" deviceset="L0402" device="" package3d_urn="urn:adsk.eagle:package:2745538/3" value="10uH"/>
-<part name="L4" library="resistor" library_urn="urn:adsk.eagle:library:2745533" deviceset="L0402" device="" package3d_urn="urn:adsk.eagle:package:2745538/3" value="10uH"/>
+<part name="FB1" library="resistor" library_urn="urn:adsk.eagle:library:2745533" deviceset="L0402" device="" package3d_urn="urn:adsk.eagle:package:2745538/3" value="220Ω"/>
+<part name="FB2" library="resistor" library_urn="urn:adsk.eagle:library:2745533" deviceset="L0402" device="" package3d_urn="urn:adsk.eagle:package:2745538/3" value="220Ω"/>
+<part name="FB3" library="resistor" library_urn="urn:adsk.eagle:library:2745533" deviceset="L0402" device="" package3d_urn="urn:adsk.eagle:package:2745538/3" value="220Ω"/>
 <part name="C56" library="resistor" library_urn="urn:adsk.eagle:library:2745533" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:2745540/2" value="15pF"/>
 <part name="C57" library="resistor" library_urn="urn:adsk.eagle:library:2745533" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:2745540/2" value="15pF"/>
 <part name="C58" library="resistor" library_urn="urn:adsk.eagle:library:2745533" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:2745540/2" value="15pF"/>
@@ -16149,6 +16149,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <rectangle x1="484.3907" y1="32.8803" x2="484.6447" y2="32.9057" layer="200"/>
 <rectangle x1="484.4923" y1="32.9057" x2="484.5685" y2="32.9311" layer="200"/>
 <text x="480.441" y="8.7122" size="2.54" layer="97" font="vector">CC BY-SA 4.0</text>
+<text x="474.98" y="46.736" size="1.778" layer="95">x8</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="317.5" y="129.54" smashed="yes"/>
@@ -16580,35 +16581,28 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 </instance>
 <instance part="C43" gate="G$1" x="441.96" y="55.88" smashed="yes">
 <attribute name="NAME" x="442.976" y="56.515" size="1.778" layer="95"/>
-<attribute name="VALUE" x="442.976" y="51.689" size="1.778" layer="96"/>
 </instance>
 <instance part="C44" gate="G$1" x="447.04" y="55.88" smashed="yes">
 <attribute name="NAME" x="448.056" y="56.515" size="1.778" layer="95"/>
-<attribute name="VALUE" x="448.056" y="51.689" size="1.778" layer="96"/>
 </instance>
 <instance part="C45" gate="G$1" x="452.12" y="55.88" smashed="yes">
 <attribute name="NAME" x="453.136" y="56.515" size="1.778" layer="95"/>
-<attribute name="VALUE" x="453.136" y="51.689" size="1.778" layer="96"/>
 </instance>
 <instance part="C46" gate="G$1" x="457.2" y="55.88" smashed="yes">
 <attribute name="NAME" x="458.216" y="56.515" size="1.778" layer="95"/>
-<attribute name="VALUE" x="458.216" y="51.689" size="1.778" layer="96"/>
 </instance>
 <instance part="C47" gate="G$1" x="462.28" y="55.88" smashed="yes">
 <attribute name="NAME" x="463.296" y="56.515" size="1.778" layer="95"/>
-<attribute name="VALUE" x="463.296" y="51.689" size="1.778" layer="96"/>
 </instance>
 <instance part="C48" gate="G$1" x="467.36" y="55.88" smashed="yes">
 <attribute name="NAME" x="468.376" y="56.515" size="1.778" layer="95"/>
-<attribute name="VALUE" x="468.376" y="51.689" size="1.778" layer="96"/>
 </instance>
 <instance part="C49" gate="G$1" x="472.44" y="55.88" smashed="yes">
 <attribute name="NAME" x="473.456" y="56.515" size="1.778" layer="95"/>
-<attribute name="VALUE" x="473.456" y="51.689" size="1.778" layer="96"/>
 </instance>
 <instance part="C50" gate="G$1" x="477.52" y="55.88" smashed="yes">
 <attribute name="NAME" x="478.536" y="56.515" size="1.778" layer="95"/>
-<attribute name="VALUE" x="478.536" y="51.689" size="1.778" layer="96"/>
+<attribute name="VALUE" x="468.122" y="46.736" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V16" gate="G$1" x="462.28" y="63.5" smashed="yes">
 <attribute name="VALUE" x="464.82" y="66.04" size="1.778" layer="96" rot="R180"/>
@@ -16712,15 +16706,15 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <instance part="GND39" gate="1" x="73.66" y="190.5" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="76.2" y="187.96" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
-<instance part="L2" gate="G$1" x="114.3" y="218.44" smashed="yes" rot="MR0">
+<instance part="FB1" gate="G$1" x="114.3" y="218.44" smashed="yes" rot="MR0">
 <attribute name="NAME" x="111.252" y="219.71" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="118.618" y="219.71" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="L3" gate="G$1" x="114.3" y="205.74" smashed="yes" rot="MR0">
+<instance part="FB2" gate="G$1" x="114.3" y="205.74" smashed="yes" rot="MR0">
 <attribute name="NAME" x="111.252" y="207.264" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="118.364" y="207.264" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="L4" gate="G$1" x="114.3" y="193.04" smashed="yes" rot="MR0">
+<instance part="FB3" gate="G$1" x="114.3" y="193.04" smashed="yes" rot="MR0">
 <attribute name="NAME" x="110.998" y="194.31" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="117.856" y="194.31" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -18825,7 +18819,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 </segment>
 <segment>
 <pinref part="C56" gate="G$1" pin="2"/>
-<pinref part="L2" gate="G$1" pin="P$2"/>
+<pinref part="FB1" gate="G$1" pin="P$2"/>
 <wire x1="110.49" y1="215.138" x2="109.22" y2="215.138" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="215.138" x2="109.22" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="C59" gate="G$1" pin="1"/>
@@ -18844,7 +18838,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 </segment>
 <segment>
 <pinref part="C57" gate="G$1" pin="2"/>
-<pinref part="L3" gate="G$1" pin="P$2"/>
+<pinref part="FB2" gate="G$1" pin="P$2"/>
 <wire x1="110.49" y1="202.438" x2="109.22" y2="202.438" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="202.438" x2="109.22" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="C60" gate="G$1" pin="1"/>
@@ -18863,7 +18857,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 </segment>
 <segment>
 <pinref part="C58" gate="G$1" pin="2"/>
-<pinref part="L4" gate="G$1" pin="P$2"/>
+<pinref part="FB3" gate="G$1" pin="P$2"/>
 <wire x1="110.49" y1="189.738" x2="109.22" y2="189.738" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="189.738" x2="109.22" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="C61" gate="G$1" pin="1"/>
@@ -18910,7 +18904,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 </segment>
 <segment>
 <pinref part="C58" gate="G$1" pin="1"/>
-<pinref part="L4" gate="G$1" pin="P$1"/>
+<pinref part="FB3" gate="G$1" pin="P$1"/>
 <wire x1="118.11" y1="189.738" x2="119.38" y2="189.738" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="189.738" x2="119.38" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="193.04" x2="121.92" y2="193.04" width="0.1524" layer="91"/>
@@ -18930,7 +18924,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 </segment>
 <segment>
 <pinref part="C57" gate="G$1" pin="1"/>
-<pinref part="L3" gate="G$1" pin="P$1"/>
+<pinref part="FB2" gate="G$1" pin="P$1"/>
 <wire x1="118.11" y1="202.438" x2="119.38" y2="202.438" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="202.438" x2="119.38" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="205.74" x2="121.92" y2="205.74" width="0.1524" layer="91"/>
@@ -18950,7 +18944,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 </segment>
 <segment>
 <pinref part="C56" gate="G$1" pin="1"/>
-<pinref part="L2" gate="G$1" pin="P$1"/>
+<pinref part="FB1" gate="G$1" pin="P$1"/>
 <wire x1="118.11" y1="215.138" x2="119.38" y2="215.138" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="215.138" x2="119.38" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="218.44" x2="121.92" y2="218.44" width="0.1524" layer="91"/>
