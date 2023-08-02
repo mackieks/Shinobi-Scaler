@@ -45,6 +45,7 @@ I maintain a [Mouser project](https://www.mouser.com/ProjectManager/ProjectDetai
 ## Assembly
 I've provided an [iBOM](https://github.com/oratek-ch/InteractiveBOM) file to make assembly easier. The online iBOM viewer is down, so you'll have to download the [local version of iBOM](https://github.com/oratek-ch/InteractiveBOM/blob/master/Release/V1_6.zip).
 
+As mentioned previously, you can harvest the TV5725 and SDRAM from a GBS-8200 if you'd like. Please note that previous advice to harvest the 0603 ferrite beads from the GBS-8200 is outdated. Use 220Ω @ 100MHz 0402 ferrite beads as called out in the BOM.
 <img src='images/gbs8200_top_noconn.png' width='500'>
 
 **Note:** There is an 0805 zero-ohm resistor (R19) in series with the output of the onboard 3.3V regulator. If you intend to power Shinobi from an external 3.3V supply, you can omit this resistor to avoid backfeeding the onboard 3.3V regulator. If you choose to remove the zero-ohm and/or U7 (TPS621351), the board will need to be powered with an external 3.3V supply during programming. 
@@ -54,13 +55,13 @@ I've provided an [iBOM](https://github.com/oratek-ch/InteractiveBOM) file to mak
 ## Programming
 - Install [CH340 drivers](http://www.wch-ic.com/downloads/CH341SER_ZIP.html)
 - Bridge the `prg` jumper with solder (or tweezers)
-- Plug USB-C into Shinobi. **Note:** USB-C port only works in one plug orientation. Flip plug if CH340C doesn't enumerate.
+- Plug USB-C into Shinobi. **Note:** USB-C port works in both orientations on the latest board rev.
 - Verify COM port (or your platform's equivalent) is enumerating
 - Open GBS-Control release of your choice in Arduino IDE (these steps assume you have already installed requisite libraries, etc.)
 - Set up Tools menu as shown, select CH340C port under Port menu, then program
 <img src='images/program.png' height='300'>
 
-- When programming is complete, unplug Shinobi, remove `prg` solder bridge, and power back up to access GBS-Control Wi-Fi AP
+- When programming is complete, unplug Shinobi, unbridge `prg`, and power back up to access GBS-Control Wi-Fi AP
 
 ## To-do
 - [ ] Finish prototype enclosure and upload photos + MCAD files
