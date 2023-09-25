@@ -1,4 +1,5 @@
-# Shinobi Scaler <img src="images/logo_dark.png#gh-light-mode-only" height="30"/> <img src="images/logo_light.png#gh-dark-mode-only" height="30"/>
+# Shinobi Scaler <picture> <source media="(prefers-color-scheme: dark)" srcset="images/logo_light.png"> <img src="images/logo_dark.png" height="30"> </picture> 
+
 Shinobi is a reimagined, miniaturized GBS8200 for portablizers. Like the original GBS8200, it can convert 240p and 480i RGBs to 480p/720p/960p/1080p VGA, making it perfect for connecting retro video game consoles to modern LCDs.
 
 <img src='images/shinobi_new.png' width='350'> <img src='images/untitled.png' width='350'> 
@@ -36,7 +37,9 @@ Recommended fabrication specs:
 
 <img src='images/esp06_top.png' width='240'> <img src='images/esp06_bottom.png' width='250'> 
 
-I maintain a [Mouser project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=a0a4651c6a) with most of the BOM. You will still need to source a TV5725, ESP-06, and CH340C elsewhere. Cheap GBS8200s are available from AliExpress, eBay, DHGate, and Amazon if you'd like to harvest the TV5725 and SDRAM from one. I get my [TV5725s](https://www.aliexpress.us/item/2251832712259245.html), [ESP-06s](https://www.aliexpress.us/item/2251832641491582.html) and [CH340Cs](https://www.aliexpress.com/wholesale?&SearchText=ch340c) from AliExpress.
+I maintain a [Mouser project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=a0a4651c6a) with most of the BOM. Thanks to [SaltyFreeman](https://twitter.com/biggestsonicfan) for providing an equivalent [Digikey cart](https://digikey.com/short/t3m1vqz2)!
+
+You will still need to source a TV5725, ESP-06, and CH340C elsewhere. Cheap GBS8200s are available from AliExpress, eBay, DHGate, and Amazon if you'd like to harvest the TV5725 and SDRAM from one. I get my [TV5725s](https://www.aliexpress.us/item/2251832712259245.html), [ESP-06s](https://www.aliexpress.us/item/2251832641491582.html) and [CH340Cs](https://www.aliexpress.com/wholesale?&SearchText=ch340c) from AliExpress.
 
 **Update (11/3/22):** ESP-06s have been relisted on the AliExpress Keli-te Store.
 
