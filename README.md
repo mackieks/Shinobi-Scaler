@@ -72,4 +72,4 @@ As mentioned previously, you can harvest the TV5725 and SDRAM from a GBS-8200 if
 - [ ] Run reliability tests for higher output resolutions (currently only 480P has been vetted)
 
 ## License
-[Solderpad Hardware License v2.1](https://solderpad.org/licenses/SHL-2.1/)https://solderpad.org/licenses/SHL-2.1/
+[Solderpad Hardware License v2.1](https://solderpad.org/licenses/SHL-2.1/)
