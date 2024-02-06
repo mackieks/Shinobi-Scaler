@@ -39,16 +39,16 @@ Recommended fabrication specs:
 
 I maintain a [Mouser project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=a0a4651c6a) with most of the BOM. Thanks to [biggestsonicfan](https://github.com/biggestsonicfan) for providing an equivalent [Digikey cart](https://digikey.com/short/t3m1vqz2)!
 
-You will still need to source a TV5725, ESP-06, and CH340C elsewhere. Cheap GBS8200s are available from AliExpress, eBay, DHGate, and Amazon if you'd like to harvest the TV5725 and SDRAM from one. I get my [TV5725s](https://www.aliexpress.us/item/3256801105294792.html) and [CH340Cs](https://www.aliexpress.com/wholesale?&SearchText=ch340c) from AliExpress. The proper ESP-06 modules can be obtained from [Eckstein-Shop](https://eckstein-shop.de/AI-Thinker-ESP8266-ESP-06-Serial-WIFI-Wireless-Remote-Control-Module).
+You will still need to source a TV5725, ESP-06, and CH340C elsewhere. Cheap GBS8200s are available from AliExpress, eBay, DHGate, and Amazon if you'd like to harvest the TV5725 and SDRAM from one. I get my [TV5725s](https://www.aliexpress.us/item/3256801105294792.html) and [CH340Cs](https://www.aliexpress.com/wholesale?&SearchText=ch340c) from AliExpress. ESP-06s can be obtained from [Eckstein-Shop](https://eckstein-shop.de/AI-Thinker-ESP8266-ESP-06-Serial-WIFI-Wireless-Remote-Control-Module).
 
 **Update (11/3/22):** ESP-06s have been relisted on the AliExpress Keli-te Store.
 
 **Update (1/25/23):** TPS621351RGXR is available for purchase on TI's website.
 
-**Update (2/4/24):** TV5725 and ESP-06 links have been updated from confirmed sellers.
+**Update (2/4/24):** TV5725 and ESP-06 links have been updated.
 
 ## Assembly
-Open the included [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom) ibom.html file to assist you in assembly.
+An ``ibom.html`` file exported via [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom) is included to facilitate assembly. Thanks, [biggestsonicfan](https://github.com/biggestsonicfan)!
 
 As mentioned previously, you can harvest the TV5725 and SDRAM from a GBS-8200 if you'd like. Please note that previous advice to harvest the 0603 ferrite beads from the GBS-8200 is outdated. Use 220Ω @ 100MHz 0402 ferrite beads as called out in the BOM.
 
