@@ -48,10 +48,16 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1016
+          "min_clearance": 0.15
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -171,7 +177,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -198,7 +206,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": true
     },
     "ipc2581": {
@@ -452,8 +465,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
@@ -468,9 +481,9 @@
         "name": "power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.254,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
         "wire_width": 6
       }
     ],
@@ -516,6 +529,7 @@
       "MA7": "",
       "MA8": "",
       "MA9": "",
+      "MBA": "",
       "MCLK": "",
       "MCS0#": "",
       "MCS1#": "",
@@ -552,6 +566,9 @@
       "MD8": "",
       "MD9": "",
       "Net-(AE1-A)": "",
+      "Net-(C3-Pad1)": "",
+      "Net-(C4-Pad1)": "",
+      "Net-(C5-Pad1)": "",
       "Net-(C7-Pad1)": "",
       "Net-(IC1-FB)": "",
       "Net-(IC1-SW)": "",
@@ -562,12 +579,14 @@
       "Net-(Q1A-B1)": "",
       "Net-(Q1A-E1)": "",
       "Net-(U1-B1)": "",
+      "Net-(U1-DAVD)": "",
       "Net-(U1-DAVS)": "",
       "Net-(U1-FILT)": "",
       "Net-(U1-G1)": "",
       "Net-(U1-IREF)": "",
       "Net-(U1-R1)": "",
       "Net-(U1-REFBP)": "",
+      "Net-(U1-RSTN)": "",
       "Net-(U1-SOG1)": "",
       "Net-(U1-XTIN)": "",
       "Net-(U1-XTOUT)": "",

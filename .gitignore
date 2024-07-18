@@ -1,2 +1,8 @@
 *.b#*
 *.s#*
+/KiCAD/shinobi-backups
+KiCAD/shinobi.kicad_prl
+KiCAD/~shinobi.kicad_pcb.lck
+/KiCAD/shinobi-backups
+KiCAD/\#auto_saved_files\#
+*.kicad_prl
