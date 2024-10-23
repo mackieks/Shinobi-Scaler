@@ -9,3 +9,5 @@ KiCAD/\#auto_saved_files\#
 KiCAD/fp-info-cache
 KiCAD/shinobi.kicad_prl
 /KiCAD/shinobi.pretty
+/KiCAD/shinobi-backups
+*.lck
