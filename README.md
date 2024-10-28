@@ -58,7 +58,7 @@ For a guide on how to assemble PCBs at home using a solderpaste stencil and hot 
 
 - When programming is complete, unplug Shinobi 2 and power it back up to access GBS-Control Wi-Fi AP
 - After setting up your presets, you can edit line 7211 of the Arduino sketch as shown, then recompile & reupload to totally disable Wi-Fi. This saves ~150mW
-<img src='images/disable.png' height='300'>
+<img src='images/disable.png' width='300'>
 
 ## To-do
 - [ ] 
