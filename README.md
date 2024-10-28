@@ -1,4 +1,4 @@
-# Shinobi Scaler <picture> <source media="(prefers-color-scheme: dark)" srcset="images/logo_light.png"> <img src="images/logo_dark.png" height="30"> </picture> 
+# Shinobi Scaler 1 (*OLD*) <picture> <source media="(prefers-color-scheme: dark)" srcset="images/logo_light.png"> <img src="images/logo_dark.png" height="30"> </picture> 
 
 Shinobi is a reimagined, miniaturized GBS8200 for portablizers. Like the original GBS8200, it can convert 240p and 480i RGBs to 480p/720p/960p/1080p VGA, making it perfect for connecting retro video game consoles to modern LCDs.
 
