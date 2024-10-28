@@ -1,4 +1,4 @@
-<picture> <source media="(prefers-color-scheme: dark)" srcset="https://github.com/mackieks/Shinobi-Scaler/blob/shinobi-2/images/logo_light.png"> <img src="https://github.com/mackieks/Shinobi-Scaler/blob/shinobi-2/images/logo_dark.png" height="30"> </picture> 
+<picture> <source media="(prefers-color-scheme: dark)" srcset="https://github.com/mackieks/Shinobi-Scaler/blob/shinobi-2/images/logo_light.png"> <img src="https://github.com/mackieks/Shinobi-Scaler/blob/shinobi-2/images/logo_dark.png" height="100"> </picture> 
 
 Shinobi is a reimagined, miniaturized GBS8200 for portablizers. Like the original GBS8200, it can convert 240p and 480i RGBs to 480p/720p/960p/1080p VGA, making it perfect for connecting retro video game consoles to modern LCDs.
 
