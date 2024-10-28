@@ -39,7 +39,7 @@ Recommended fabrication specs:
 - ENIG finish
 - Solderpaste stencil for top side highly recommended
 
-I maintain a [Mouser project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=a0a4651c6a) with most of the BOM. 
+I maintain a [Mouser project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=5e7ab48fda) with most of the BOM. 
 
 You will still need to source a TV5725 and CH343P elsewhere. Cheap GBS8200s are available from AliExpress, eBay, DHGate, and Amazon if you'd like to harvest the TV5725 and SDRAM from one. [TV5725s](https://www.aliexpress.us/item/3256807282171835.html) are available from AliExpress. CH343Ps are sold on [LCSC](https://www.lcsc.com/product-detail/USB-ICs_WCH-Jiangsu-Qin-Heng-CH343P_C2846043.html) and [AliExpress](https://www.aliexpress.us/item/3256806693647102.html).
 
