@@ -13,21 +13,23 @@ Shinobi Scaler 2 is a reimagined, miniaturized GBS8200 for portablizers. Like th
 - [x] Integrated ESP8285 with Wi-Fi chip antenna
 - [x] Integrated CH343P for programming
 - [x] Integrated Si5351A clock generator
-- [x] Draws 359mA @ 3.3V (1.18W) when scaling 240p to 480p. Half the power of Shinobi 1!
 - [x] Power from any 2.5V - 5.5V source (including 1S li-ion)
+- [x] Draws 1.2W, half the power of Shinobi 1!
+<img src='images/power.png' width='200'>
+
 
 <img src='images/schematic.png' width='1000'>
 
 ## Gallery
-Shinobi PCB
+Shinobi 2 PCB
 
 <img src='images/top.jpg' width='350'> <img src='images/bottom.jpg' width='350'> 
 
-1Chip SNES RGBs upscaled to 640x480 VGA, displayed on ZJ050NA-08C LCD (Shinobi 1)
+1Chip SNES RGBs upscaled to 640x480 VGA, displayed on ZJ050NA-08C LCD
 
 <img src='images/yoshi.jpg' width='400'> <img src='images/sm.jpg' width='400'>
 
-Shinobi 2 testing
+Shinobi 2 testing and power measurement
 
 <img src='images/test2.jpg' width='400'>
 
