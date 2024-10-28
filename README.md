@@ -15,7 +15,7 @@ Shinobi Scaler 2 is a reimagined, miniaturized GBS8200 for portablizers. Like th
 - [x] Integrated Si5351A clock generator
 - [x] Power from any 2.5V - 5.5V source (including 1S li-ion)
 - [x] Draws 1.2W, half the power of Shinobi 1!
-<img src='images/power.jpg' width='200'>
+<img src='images/power.PNG' width='200'>
 
 
 <img src='images/schematic.png' width='1000'>
