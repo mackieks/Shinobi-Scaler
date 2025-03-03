@@ -69,6 +69,17 @@ As mentioned previously, you can harvest the TV5725 and SDRAM from a GBS-8200 if
 
 - When programming is complete, unplug Shinobi, unbridge `prg`, and power back up to access GBS-Control Wi-Fi AP
 
+## Undervolting
+
+To undervolt Shinobi 1, do the following:
+- [x] Replace R14 with an 0402 300k 1% resistor
+- [x] Replace R15 with an 0402 787k 1% resistor
+- [x] Replace U8 with LDL112PV15R 
+
+This sets U7 to output 2.54V, and changes the DVDD rail to 1.5V. The LDO dropout is decreased from 1.5V (3.3->1.8) to only 1V (2.5->1.5). 
+
+While this won't match Shinobi 2's power efficiency, it should still be a major improvement over a stock Shinobi 1.
+  
 ## To-do
 - [ ] Finish prototype enclosure and upload photos + MCAD files
 - [ ] Run reliability tests for higher output resolutions (currently only 480P has been vetted)
